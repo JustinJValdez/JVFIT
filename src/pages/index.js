@@ -1,16 +1,11 @@
-import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Create Next App</title>
-        <meta name="JVFIT" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <main className={styles.main}>
+      
+      <main id='top' className={styles.main}>
         JV FIT
         <br></br>
         nav bar
@@ -31,5 +26,5 @@ export default function Home() {
 
       </main>
     </>
-  )
+  );
 }
