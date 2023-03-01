@@ -2,7 +2,7 @@ import styles from "../styles/Navbar.module.css";
 
 import Link from "next/link";
 
-const Navbar = () => { 
+export default function Navbar () { 
 
   return(
     <div className={styles.Navbar}>
@@ -11,4 +11,6 @@ const Navbar = () => {
       </Link>
     </div>
   )
-}
+};
+
+

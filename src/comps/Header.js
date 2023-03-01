@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Header = ()=>{
+export default function Header(){
   return (
     <Head>
       <meta charSet="UTF-8"/>
@@ -10,6 +10,4 @@ const Header = ()=>{
         <title>JVFIT</title>
       </Head>
   )
-}
-
-export default Header;
+};
