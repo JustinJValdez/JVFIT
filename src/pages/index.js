@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       
-      <main id='top' className={styles.main}>
+      <main id='home' className={styles.main}>
         JV FIT
         <br></br>
         nav bar
