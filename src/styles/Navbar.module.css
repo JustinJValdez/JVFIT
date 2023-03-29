@@ -1,3 +1,9 @@
+.menubtn{
+  position: fixed;
+  left: 3%;
+  font-size: 2rem;
+}
+
 .Navbar{
   height: 100%;
   width:0;
@@ -11,17 +17,22 @@
   transition: 0.5s;
 }
 
+
 .Navbar ul li {
-  padding: 8px 8px 8px 32px;
-  list-style: none;
-  text-decoration: none;
-  font-size: 25px;
-  color: #f79a9a;
+  padding: 3%;
+  margin: 5%;
+  list-style-type: none;
+  font-size: 1.5rem;
   display: block;
   transition: 0.3s;
 }
 
-.Navbar ul li:hover{
+.Navbar .link{
+  text-decoration: none;
+  color: #ffb0b0;
+}
+
+.Navbar .link:hover{
   color: #f3efef;
 }
 
@@ -29,8 +40,10 @@
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 3rem;
   margin-left: 50px;
+  text-decoration: none ;
+  color: #ffb0b0;
 }
 
 

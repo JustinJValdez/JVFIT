@@ -14,7 +14,7 @@ function closeNav(){
 
   return(
     <>
-    <span onClick={openNav}>MENU</span>
+    <span onClick={openNav} className={styles.menubtn}>MENU</span>
       <div className={styles.Navbar} id="myNav">
         <ul>
           <li>
@@ -22,22 +22,26 @@ function closeNav(){
             &times;</Link>
           </li>
           <li>
-            <Link href="/#home">
+            <Link href="/#home"
+            className={styles.link}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/#online">
+            <Link href="/#online"
+            className={styles.link}>
               Online Coaching
             </Link>
           </li>
           <li>
-            <Link href="/#training">
+            <Link href="/#training"
+            className={styles.link}>
               In-Person training
             </Link>
           </li>
           <li>
-            <Link href="/#rehab">
+            <Link href="/#rehab"
+            className={styles.link}>
               Rehab
             </Link>
           </li>
