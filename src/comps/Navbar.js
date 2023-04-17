@@ -28,19 +28,19 @@ function closeNav(){
             </Link>
           </li>
           <li>
-            <Link href="/#online"
+            <Link href="/online"
             className={styles.link}>
               Online Coaching
             </Link>
           </li>
           <li>
-            <Link href="/#training"
+            <Link href="/pt"
             className={styles.link}>
               In-Person training
             </Link>
           </li>
           <li>
-            <Link href="/#rehab"
+            <Link href="/rehab"
             className={styles.link}>
               Rehab
             </Link>

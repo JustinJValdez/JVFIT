@@ -8,8 +8,6 @@ export default function Home() {
       <main id='home' className={styles.main}>
         JV FIT
         <br></br>
-        nav bar
-        <br></br>
         Health and Wellness Consulting
         <br></br>
         Online Personal Training 
