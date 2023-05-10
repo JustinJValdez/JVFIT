@@ -4,6 +4,11 @@
   font-size: 2rem;
 }
 
+.menubtn:hover{
+  color:#ffb0b0;
+  cursor: pointer;
+}
+
 .Navbar{
   height: 100%;
   width:0;

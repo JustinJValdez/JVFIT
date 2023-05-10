@@ -8,17 +8,15 @@ export default function Home() {
       <main id='home' className={styles.main}>
         JV FIT
         <br></br>
-        Health and Wellness Consulting
+        Health and Wellness Coaching
         <br></br>
         Online Personal Training 
         <br></br>
-        Personal Training - Online..home 1:1
-        <br></br>
-        Body Work
+        Personal Training - 1:1/group
         <br></br>
         Rehab
         <br></br>
-        client testimonials
+        Client testimonials
         
 
 
