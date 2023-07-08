@@ -51,6 +51,10 @@
   color: #ffb0b0;
 }
 
+.Navbar .closebtn:hover{
+  color: #f3efef;
+}
+
 
 
 @media screen and (max-height: 450px) {
