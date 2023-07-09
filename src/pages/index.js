@@ -7,12 +7,14 @@ import bkrd1 from '../photos/bkrd1.jpg';
 export default function Home() {
   return (
     <>
-      <Image 
+    <Image 
       src={bkrd1}
-      width={500}
-      height={500}
       alt="workout supplies and clipboard"
+      fill={true}
+      style={{objectFit:"cover"}}
+    
       />
+      
       <main id='home' className={styles.main}>
         JV FIT
         <br></br>
