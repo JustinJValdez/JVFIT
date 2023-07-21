@@ -1,9 +1,23 @@
 .main {
+  margin:0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
   background-color: gray;
   font-size: 2rem;
+}
+
+.bkrd{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+
+.text{
+  margin:15%;
 }

@@ -7,8 +7,8 @@ import styles from "../styles/Layout.module.css"
 export default function Layout ({children}){
   return (
     <>
-      <Navbar />
-      <div className={styles.wrapper}>
+    <div className={styles.wrapper}>
+        <Navbar />
         <Header />
         {children}
         <Footer />

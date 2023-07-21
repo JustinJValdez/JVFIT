@@ -7,15 +7,19 @@ import bkrd1 from '../photos/bkrd1.jpg';
 export default function Home() {
   return (
     <>
+    <div id='home' className={styles.main}>
+    <div className={styles.bkrd}>
     <Image 
       src={bkrd1}
       alt="workout supplies and clipboard"
-      fill={true}
+      priority
+      fill
+      sizes='100vw'
       style={{objectFit:"cover"}}
-    
       />
-      
-      <main id='home' className={styles.main}>
+    </div>
+    <div className={styles.text}>
+    <main>
         JV FIT
         <br></br>
         Health and Wellness Coaching
@@ -27,10 +31,12 @@ export default function Home() {
         Rehab
         <br></br>
         Client testimonials
-        
-
 
       </main>
+    </div>
+    </div>
+    
+      
     </>
   );
 }
